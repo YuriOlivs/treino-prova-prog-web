@@ -1,0 +1,194 @@
+{
+    "tests": [
+        {
+            "name": "Deve retornar 9 ingressos - ListagemTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$ListagemTest\\#teste1",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 204 quando não houver ingressos - ListagemTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$ListagemTest\\#teste2",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar um ingresso com ID 1 - BuscaPorIdTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$BuscaPorIdTest\\#teste1",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 404 quando o ingresso não existe - BuscaPorIdTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$BuscaPorIdTest\\#teste2",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 404 quando não houver ingressos - BuscaPorIdTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$BuscaPorIdTest\\#teste3",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 201 quando o ingresso é criado com sucesso (INTEIRA) - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste1",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 201 quando o ingresso é criado com sucesso (MEIA) - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste2",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 201 quando o ingresso é criado com sucesso (CORTESIA) - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste3",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 400 quando o tipo de ingresso é inválido - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste4",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 404 quando o show não existe - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste5",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 400 quando o preço é menor que 30.0 - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste6",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 400 quando os campos estiverem vazios - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste7",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 400 quando os campos estiverem nulos - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste8",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 400 quando o preço for negativo - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste9",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 400 quando o preço for 29.0 - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste10",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 400 quando os campos estiverem com espaços - CriacaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$CriacaoTest\\#teste11",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 204 quando o ingresso é removido com sucesso - RemocaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$RemocaoTest\\#teste1",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 404 quando o ingresso não existe - RemocaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$RemocaoTest\\#teste2",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        },
+        {
+            "name": "Deve retornar 404 quando não houver ingressos - RemocaoTest",
+            "setup": "",
+            "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=school.sptech.exerciciopraticaac2.controller.IngressoControllerTest\\$RemocaoTest\\#teste3",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 0.31
+        }
+    ]
+}
